@@ -6,7 +6,7 @@ $(document).ready(function(){
   
         (function loop(i){
             setTimeout(function(){
-            $("#progressbar li").eq(5-i).addClass("active");
+            $("#progressbar li").eq(5-i).addClass("error");
             if(--i)
                 loop(i);
             },500*i)

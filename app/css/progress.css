@@ -130,5 +130,10 @@ body {
 	color: white;
 }
 
+#progressbar li.error:before,  #progressbar li.error:after{
+	background: #d91e18;
+	color: white;
+}
+
 
 
